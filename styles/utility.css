@@ -181,6 +181,14 @@ body {
   margin-bottom: 40px;
 }
 
+.pa-l {
+  padding-left: 30px;
+}
+
+.pa-r {
+  padding-right: 30px;
+}
+
 .rounded-sm {
   border-radius: 20px;
 }
@@ -230,6 +238,10 @@ body {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .color-light {
   color: #ffffffb3;
 }
@@ -246,4 +258,12 @@ body {
 
 .txt-bold {
   font-weight: 700;
+}
+
+.border-dash {
+  border-right: 1px dashed var(--white);
+}
+
+.mr-top {
+  margin-top: 100px;
 }
