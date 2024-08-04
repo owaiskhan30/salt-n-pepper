@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback | Salt'n Pepper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/utility.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header d-flex justify-around item-center">
+        <div class="logo">
+            <img src="images/logo.webp" alt="Logo">
+        </div>
+        <div class="nav_bar d-flex justify-around item-center">
+            <ul class="d-flex item-center list-style-none">
+                <li><a href="./index.html" class="text-none">Home</a></li>
+                <li><a href="./about.html" class="text-none">About Us</a></li>
+                <li><a href="./publication.html" class="text-none">Publications</a></li>
+                <li><a href="./feedback.html" class="text-none">Feedback</a></li>
+            </ul>
+            <div class="buttons">
+                <a href="#" class="btn-1 text-none">Get a Franchise</a>
+                <a href="#" class="btn-2 text-none">Order Online<span class="icon"><i
+                            class="fa fa-solid fa-arrow-right"></i></span></a>
+            </div>
+        </div>
+    </div>
+    <section class="sec-feed-banner d-flex justify-center item-center">
+        <div class="banner-content text-center" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1200">
+            <h3 class="ff-apercu-regular">Salt'n Pepper</h3>
+            <h1>Feedback</h1>
+            <h5>We’d love to hear from you!</h5>
+        </div>
+    </section>
+    <section class="main-section d-flex">
+        <div class="sec-form" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200">
+            <div class="sec-from-content mr-y text-center border-dash pa-r">
+                <p>Your feedback is important to us and we greatly appreciate you filling out the comment form below. We
+                    look forward to hearing from you!</p>
+            </div>
+            <div class="border-dash pa-r">
+                <div class="rating-stars d-flex justify-between">
+                    <div class="stars">
+                        <h3 class="ff-apercu-regular">Food</h3>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="stars">
+                        <h3 class="ff-apercu-regular">Service</h3>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="rating-stars d-flex justify-between">
+                    <div class="stars">
+                        <h3 class="ff-apercu-regular">Cleanliness</h3>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="stars">
+                        <h3 class="ff-apercu-regular">Value for Money</h3>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-form border-dash pa-r">
+                <form action="post">
+                    <div class="fields d-flex justify-between gap-3">
+                        <input type="text" name="Full_name" placeholder="Full Name" class="form-control">
+                        <input type="tel" name="phone_number" placeholder="Phone Number" class="form-control">
+                    </div>
+                    <div class="fields">
+                        <input type="datetime-local" name="date_time" class="form-control">
+                    </div>
+                    <div class="fields">
+                        <select name="select_branch" class="form-control">
+                            <option value>Select Branch</option>
+                            <option value="3-48 – Commercial Zone, Gulberg II, Lahore, Pakistan">3-48 – Commercial Zone,
+                                Gulberg II, Lahore, Pakistan</option>
+                        </select>
+                    </div>
+                    <div class="fields">
+                        <input type="email" name="email" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="fields">
+                        <textarea name="message" placeholder="Suggestion (if any)" class="form-control"></textarea>
+                    </div>
+                    <label class="ff-apercu-regular">Kindly incdicate your favourite items from our menu.</label>
+                    <div class="fields d-flex gap-3">
+                        <div class="field">
+                            <label class="ff-apercu-regular small">1.</label>
+                            <input type="text" name="favourite_item" class="form-control">
+                        </div>
+                        <div class="field">
+                            <label class="ff-apercu-regular small">2.</label>
+                            <input type="text" name="favourite_item_2" class="form-control">
+                        </div>
+                        <div class="field">
+                            <label class="ff-apercu-regular small">3.</label>
+                            <input type="text" name="favourite_item_3" class="form-control">
+                        </div>
+                    </div>
+                    <label class="ff-apercu-regular">Are you satisfied with our current menu?</label>
+                    <div class="fields d-flex gap-3 radio-button">
+                        <div class="radio-option d-flex">
+                            <input type="radio" name="satisfaction" id="yes">
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div class="radio-option d-flex">
+                            <input type="radio" name="satisfaction" id="no">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+                    <label class="ff-apercu-regular">If not, what new food items would you like us to add?</label>
+                    <div class="fields d-flex gap-3">
+                        <div class="field">
+                            <label class="ff-apercu-regular small">1.</label>
+                            <input type="text" name="food_item" class="form-control">
+                        </div>
+                        <div class="field">
+                            <label class="ff-apercu-regular small">2.</label>
+                            <input type="text" name="food_item_2" class="form-control">
+                        </div>
+                        <div class="field">
+                            <label class="ff-apercu-regular small">3.</label>
+                            <input type="text" name="food_item_3" class="form-control">
+                        </div>
+                    </div>
+                    <label class="ff-apercu-regular">Have you visited our Social Media pages & website?</label>
+                    <div class="fields d-flex justify-between check-boxs">
+                        <div class="check-box d-flex">
+                            <input type="checkbox" name="facebook" id="facebook">
+                            <label for="facebook">Facebook</label>
+                        </div>
+                        <div class="check-box d-flex">
+                            <input type="checkbox" name="instagram" id="instagram">
+                            <label for="instagram">Instagram</label>
+                        </div>
+                        <div class="check-box d-flex">
+                            <input type="checkbox" name="twitter" id="twitter">
+                            <label for="twitter">Twitter</label>
+                        </div>
+                        <div class="check-box d-flex">
+                            <input type="checkbox" name="website" id="website">
+                            <label for="website">Website</label>
+                        </div>
+                    </div>
+                    <input type="submit" class="submit-button">
+                </form>
+            </div>
+        </div>
+        <div class="sec-Foodconsults text-center pa-l" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200">
+            <h2 class="ff-apercu-regular mr-top">Foodconsults (PVT.) LTD.</h2>
+            <p class="text-justify mr-y">
+                Foodconsults (Pvt.) Ltd. was founded in 1983 by Mahmood Akbar, considered by many as the pioneer
+                restaurateur in Pakistan. The organization, which has its headquarter in Lahore, prides itself on
+                developing and growing a unique chain of restaurants known as the Salt’n Pepper Restaurants. Salt’n
+                Pepper restaurants are Pakistan’s most recognized and distinguished hospitality brand with a history of
+                market innovation and excellence in restaurant chain operations.
+            </p>
+            <h2 class="ff-apercu-regular">Contact Us</h2>
+            <div class="map">
+                <iframe frameborder="0"  class="w-full mr-y" height="200px" marginwidth="0"
+                    src="https://maps.google.com/maps?q=Foodconsults%20%28PVT.%29%20LTD.&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"
+                    title="Foodconsults (PVT.) LTD." aria-label="Foodconsults (PVT.) LTD."></iframe>
+            </div>
+            <div class="head-office-details">
+                <h2 class="ff-apercu-regular">Head Office</h2>
+                <ul class="headoffice-list">
+                    <li class="list-style-none"><i class="fas fa-phone"></i> <a class="text-none" href="tel:+92-42-35850931">+92-42-35850931</a>
+                    </li>
+                    <li class="list-style-none"><i class="fas fa-fax"></i> <a class="text-none" href="tel:+92-42-35850930">+92-42-35850930</a>
+                    </li>
+                    <li class="list-style-none"><i class="fas fa-truck"></i> <a class="text-none" href="tel:+92 42 111-100-678">+92 42
+                            111-100-678</a></li>
+                    <li class="list-style-none"><i class="fas fa-envelope"></i> <a class="text-none"
+                            href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a></li>
+                    <li class="list-style-none"><i class="fas fa-map-marker-alt"></i> 23 Usman Block, New Garden Town, Lahore, Pakistan</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-light">
+        <div class="main-footer d-flex justify-between gap-5">
+            <div class="footer-1">
+                <img src="images/Footer-Logo.webp" alt="Footer-Logo">
+                <p class="color-light mr-y">The Salt’n Pepper Restaurants are an example of gracious dinning,
+                    outstanding service, extraordinary
+                    classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in
+                    Lahore. From family occasions to business dinner and moments of the heart, this place is where
+                    unforgettable memories are made.</p>
+                <div class="footer-links">
+                    <a href="#" class="text-none color-light">Terms & conditions</a>
+                    <a href="#" class="text-none color-light">Privacy policy</a>
+                </div>
+            </div>
+            <div class="footer-2">
+                <h4 class="ff-butler">Site Links</h4>
+                <ul class="footer-nav-link list-style-none">
+                    <li><a href="./index.html" class="text-none color-light">Home</a></li>
+                    <li><a href="./about.html" class="text-none color-light">About Us</a></li>
+                    <li><a href="./publication.html" class="text-none color-light">Publications</a></li>
+                    <li><a href="#" class="text-none color-light">Get a Franchise</a></li>
+                    <li><a href="./feedback.html" class="text-none color-light">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer-3">
+                <h4 class="ff-butler">Contact Us</h4>
+                <h5 class="ff-apercu-regular">Head office Address</h5>
+                <p class="color-light">23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+                <h5 class="ff-apercu-regular">Head office number</h5>
+                <a href="tel:+92 42 358 509 31" class="text-none color-light">+92 42 358 509 31</a>
+                <a href="tel:+92 42 358 509 30" class="text-none color-light">+92 42 358 509 30</a>
+                <h5 class="ff-apercu-regular">Email Address</h5>
+                <a href="mailto:snpfood@brain.net.pk" class="text-none color-light">snpfood@brain.net.pk</a>
+                <h5 class="ff-apercu-regular">Free delivery number</h5>
+                <a href="tel:+92 42 111 100 678" class="text-none color-light">+92 42 111 100 678</a>
+                <a href="tel:+92 03 111 444 610" class="text-none color-light">+92 03 111 444 610</a>
+            </div>
+            <div class="footer-4">
+                <h4 class="ff-butler">Follow Us</h4>
+                <div class="footer-icon d-flex item-center">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="footer-images">
+                    <img src="images/app.webp" alt="App-Image">
+                    <img src="images/google.webp" alt="Google-Image">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex justify-between">
+            <p class="color-light">© 2023 Salt'n Pepper Restaurant.</p>
+            <p class="color-light">Powered By tossdown.com</p>
+        </div>
+        <div class="footer-image">
+            <img src="images/footer-s.webp" alt="Footer-S Image">
+        </div>
+        <div class="Up-arrow">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
