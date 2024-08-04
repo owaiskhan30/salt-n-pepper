@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@font-face {
+  font-family: 'futurak';
+  src: url('../fonts/FuturaBlackBT-Regular.eot');
+  src: url('../fonts/FuturaBlackBT-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FuturaBlackBT-Regular.woff2') format('woff2'),
+      url('../fonts/FuturaBlackBT-Regular.woff') format('woff'),
+      url('../fonts/FuturaBlackBT-Regular.ttf') format('truetype'),
+      url('../fonts/FuturaBlackBT-Regular.svg#FuturaBlackBT-Regular') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('../fonts/ApercuPro-Light.eot');
+  src: url('../fonts/ApercuPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/ApercuPro-Light.woff2') format('woff2'),
+      url('../fonts/ApercuPro-Light.woff') format('woff'),
+      url('../fonts/ApercuPro-Light.ttf') format('truetype'),
+      url('../fonts/ApercuPro-Light.svg#ApercuPro-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('../fonts/Butler-Medium.eot');
+  src: url('../fonts/Butler-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Butler-Medium.woff2') format('woff2'),
+      url('../fonts/Butler-Medium.woff') format('woff'),
+      url('../fonts/Butler-Medium.ttf') format('truetype'),
+      url('../fonts/Butler-Medium.svg#Butler-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ed1c24;
+  --green: #28a745;
+  --gray: #ffffff0f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 1.6rem;
+  line-height: 3rem;
+  overflow-x: hidden;
+}
+
+/* utility classes */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+.gap-1 {
+  gap: 5px;
+}
+.gap-2 {
+  gap: 10px;
+}
+.gap-3 {
+  gap: 15px;
+}
+.gap-4 {
+  gap: 20px;
+}
+.gap-5 {
+  gap: 25px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+.m-2 {
+  margin: 10px;
+}
+.m-3 {
+  margin: 15px;
+}
+.m-4 {
+  margin: 20px;
+}
+.m-5 {
+  margin: 25px;
+}
+.mt-5{
+    margin-top: 10px;
+}
+
+.mx-1 {
+  margin: 0px 5px;
+}
+.mx-2 {
+  margin: 0px 10px;
+}
+.mx-3 {
+  margin: 0px 15px;
+}
+.mx-4 {
+  margin: 0px 20px;
+}
+.mx-5 {
+  margin: 0px 25px;
+}
+
+.my-1 {
+  margin: 5px 0px;
+}
+.my-2 {
+  margin: 10px 0px;
+}
+.my-3 {
+  margin: 15px 0px;
+}
+.my-4 {
+  margin: 20px 0px;
+}
+.my-5 {
+  margin: 25px 0px;
+}
+
+.mr-y {
+  margin-bottom: 40px;
+}
+
+.rounded-sm {
+  border-radius: 20px;
+}
+
+.text-none {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.bg-dark {
+  background-color: var(--black);
+}
+
+.bg-light {
+  background-color: var(--gray);
+}
+
+.bg-green {
+  background-color: #28a745;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.w-full{
+  width: 100%;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.ff-futura {
+  font-family: 'futurak';
+}
+
+.ff-apercu-regular {
+  font-family: 'Apercu Pro';
+}
+
+.ff-butler {
+  font-family: Butler;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-light {
+  color: #ffffffb3;
+}
+
+.red-txt {
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.txt-bold {
+  font-weight: 700;
+}

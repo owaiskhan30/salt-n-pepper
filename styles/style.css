@@ -1,0 +1,365 @@
+.header {
+    padding: 10px 0;
+}
+.header .logo img {
+    width: 165px;
+}
+.header ul > li {
+    margin-right: 36px;
+}
+.header .buttons .btn-1 {
+    margin-right: 12px;
+    border-radius: 35px;
+    border: 1px solid #fff;
+    padding: 12px 16px;
+    font-size: 14px;
+}
+.header .buttons .btn-2 {
+    margin-right: 12px;
+    border-radius: 35px;
+    border: 1px solid #ed1c24;
+    padding: 12px 13px;
+    font-size: 14px;
+    background-color: #ed1c24;
+}
+.header .buttons .btn-2 .icon i {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 6px 7px;
+    border-radius: 23px;
+    margin-left: 7px;
+}
+section.sec-brand {
+    padding: 70px 15px;
+}
+h2.theme-head {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+h2.theme-head span.ff-futura {
+    font-size: 5.2rem;
+}
+section.sec-brand  p {
+    margin-bottom: 40px;
+}
+section.sec-brand .box .brand-image img {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 250px;
+    height: 140px;
+    object-fit: contain;
+}
+section.sec-brand .order-btn a {
+    display: inline-block;
+    border: 1px solid #ffffff4d;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    padding: 14px 50px;
+}
+section.sec-brand .order-btn {
+    margin-top: 20px;
+}
+section.sec-franchises,
+.sec-express-franchises {
+    padding: 70px;
+    position: relative;
+    z-index: 1;
+}
+section.sec-franchises h2.theme-head,
+.sec-express-franchises h2.theme-head,
+.sec-village h2.theme-head{
+    font-size: 5rem;
+    line-height: 6rem;
+}
+section.sec-franchises  p {
+    margin-bottom: 40px;
+}
+.franchise-box h3 {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    margin-bottom: 24px;
+}
+.franchise-box ul.details {
+    margin-bottom: 40px;
+}
+.franchise-box ul.details li > i,
+.franchise-box ul.details li > a > i {
+    padding-right: 5px;
+}
+.franchise-box a.theme-btn {
+    border: 1px solid #ffffff4d;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    display: inline-block;
+}
+.franchise-box a.theme-btn i {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 8px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+section.sec-franchises .franchise-row:not(:last-child) {
+    margin-bottom: 40px;
+}
+.s-image {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: -1;
+}
+section.sec-franchises .franchise-row:nth-child(3) {
+    padding-right: 21%;
+}
+.sec-express-franchises h2.theme-head {
+    margin-bottom: 30px;
+}
+.franchise-box .franches-image img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.franchise-box .franches-image {
+    margin-bottom: 10px;
+}
+.franchise-box .red-txt {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.sec-express-franchises .franchise-box h3 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.sec-express-franchises .franchise-box ul.details li {
+    font-size: 1.4rem;
+}
+.sec-express-franchises .franchise-box ul.details li:first-child {
+    margin-bottom: 20px;
+}
+section.sec-express-franchises .franchise-box {
+    width: 31.8%;
+}
+section.sec-express-franchises .franchise-box ul.details {
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+section.sec-express-franchises .franchise-box ul.details li {
+    line-height: 2rem;
+}
+section.sec-express-franchises .s-image {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: -1;
+}
+.shadow-image {
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+}
+.sec-village {
+    padding: 48px 30px 48px 0px;
+}
+.sec-village .village-box img {
+    width: 660px;
+}
+.sec-village .franchise-box h3 {
+    font-weight: 300;
+}
+.sec-village .franchise-box a.theme-btn i {
+    color: #28a745;
+}
+.sec-opening-franchises {
+    padding: 60px 0 38px;
+}
+.sec-opening-franchises .theme-head small {
+    font-size: 2.6rem;
+    list-style: 3.1rem;
+}
+.sec-opening-franchises .opening-box {
+    width: 26%;
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 24px;
+    margin-bottom: 32px;
+}
+.sec-opening-franchises .opening-box .red-txt {
+    font-size: 1.2rem;
+}
+.sec-opening-franchises .opening-box h4.theme-head {
+    font-size: 2.1rem;
+    line-height: 3.1rem;
+    color: #000;
+    font-weight: 400;
+}
+.sec-social-feed {
+    padding-bottom: 60px;
+}
+.sec-social-feed h4 {
+    font-size: 3.2rem;
+    line-height: 5rem;
+}   
+.sec-social-feed .social-images img {
+    width: 180px;
+}
+.sec-social-feed .social-images img:not(:last-child) {
+    margin-right: 14.8px;
+}
+footer {
+    padding: 70px 70px 10px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    position: relative;
+    z-index: 1;
+}
+footer .footer-1 {
+    width: 40%;
+}
+footer h4 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+footer .footer-2 ul.footer-nav-link li {
+    margin-bottom: 10px;
+}
+footer .footer-2 {
+    width: 20%;
+    padding-left: 30px;
+}
+footer .footer-3 h5 {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin: 10px 0;
+}
+footer .footer-3 a {
+    display: block;
+    line-height: 3rem;
+}
+footer .footer-1 a {
+    margin-right: 10px;
+}
+footer .footer-4 .footer-icon i {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+}
+footer .footer-4 .footer-icon {
+    margin-bottom: 30px;
+}
+footer .footer-3 {
+    width: 25%;
+}
+.footer-bottom {
+    border-top: 1px solid #ffffff30;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+.footer-image {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    z-index: -1;
+}
+.Up-arrow i {
+    position: fixed;
+    bottom: 60px;
+    left: 3%;
+    z-index: 99;
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    display: block;
+    background-color: rgba(52, 58, 64, 0.5);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* ===== About Page Css ===== */
+
+section.sec-about {
+    padding: 70px;
+}
+section.sec-about h2 {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    margin-bottom: 24px;
+}
+section.sec-about h2.theme-head span.ff-futura {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+}
+.grid-box .content {
+    width: 48%;
+}
+.grid-box .rest-image {
+    width: 48%;
+}
+.grid-box .content p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+section.sec-about h2.theme-head-2 {
+    margin-bottom: 40px;
+}
+section.sec-about h4 {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+section.sec-about .express-box {
+    width: 31.8%;
+    background: #ffffff0f;
+    padding: 20px;
+    border-radius: 10px;
+}
+section.sec-about .express-box img {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 274px;
+    object-fit: cover;
+}
+section.sec-about .express-box h6 {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-bottom: 10px;
+}
+section.sec-about .express-box p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 10px;
+    height: 50px;
+}
+section.sec-about ul.details li, section.sec-about ul.details li > a {
+    font-size: 1.5rem;
+}
+section.sec-about  .village-image {
+    width: 50%;
+    overflow: hidden;
+}
+section.sec-about .village-image img {
+    width: 100%;
+}
+section.sec-about .village-box h6 {
+    font-weight: 300;
+}
